@@ -45,4 +45,20 @@ public class FileUtility {
         fileInputStream.read(bytesArray);
         return bytesArray;
     }
+    public static void writeObjectToFile(Serializable object,String name) throws Exception{
+       try( FileOutputStream fout = new FileOutputStream(name);
+        ObjectOutputStream oos = new ObjectOutputStream(fout)){
+           oos.writeObject(object);
+       }
+    }
+    public static Object readFileDeserialize(String name) throws Exception{
+        Object obj = null;
+        FileInputStream fi= new FileInputStream(name);
+        try(ObjectInputStream in = new ObjectInputStream(fi)){
+            obj=in.readObject();
+        }finally {
+            return obj;
+        }
+    }
+
 }

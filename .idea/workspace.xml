@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac230e2d-fbb8-44e7-8583-4bc75a03ca5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="ac230e2d-fbb8-44e7-8583-4bc75a03ca5b" name="Changes" comment="File reader and writer with Bytes And Strings">
+      <change afterPath="$PROJECT_DIR$/src/NioFileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +62,16 @@
       <updated>1669904133555</updated>
       <workItem from="1669904134972" duration="4206000" />
       <workItem from="1669971592907" duration="636000" />
-      <workItem from="1669982752423" duration="2248000" />
+      <workItem from="1669982752423" duration="4149000" />
     </task>
+    <task id="LOCAL-00001" summary="File reader and writer with Bytes And Strings">
+      <created>1669985122656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669985122656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +87,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="File reader and writer with Bytes And Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="File reader and writer with Bytes And Strings" />
   </component>
 </project>
